@@ -1,0 +1,6 @@
+names:
+  0: MILCO
+  1: NonMILCO
+path: /home/escape/Projects/mine-detection-using-YOLOv8-transfer-learning/reports/v01/preparation_check_20261123/data
+train: train/train/images
+val: val/val/images

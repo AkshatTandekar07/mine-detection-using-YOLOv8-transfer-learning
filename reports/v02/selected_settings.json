@@ -1,0 +1,38 @@
+{
+  "checkpoint": "reports/v02/runs/yolov8s_v02_1280/weights/best.pt",
+  "sha256": "93bb1b4c5852806927ef40aa495f436b4962013cb6e4d19868d737cd8f9197fe",
+  "imgsz": 960,
+  "conf": 0.05,
+  "iou": 0.7,
+  "max_det": 300,
+  "agnostic_nms": false,
+  "match_iou": 0.5,
+  "validation_target_met": true,
+  "both_milco_metrics_improved": false,
+  "metrics": [
+    {
+      "imgsz": 960,
+      "conf": 0.05,
+      "cls": 0,
+      "TP": 45,
+      "FP": 69,
+      "FN": 14,
+      "precision": 0.39473684210526316,
+      "recall": 0.7627118644067796,
+      "false_predictions_per_image": 0.39204545454545453,
+      "class": "MILCO"
+    },
+    {
+      "imgsz": 960,
+      "conf": 0.05,
+      "cls": 1,
+      "TP": 19,
+      "FP": 53,
+      "FN": 15,
+      "precision": 0.2638888888888889,
+      "recall": 0.5588235294117647,
+      "false_predictions_per_image": 0.30113636363636365,
+      "class": "NonMILCO"
+    }
+  ]
+}

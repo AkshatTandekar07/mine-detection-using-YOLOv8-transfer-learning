@@ -1,0 +1,29 @@
+# Dataset
+path: "/kaggle/input/sonar-imaging-mine-detection/"  # Root path to the dataset
+train: "train/train/images/"  # Path to training images
+val: "val/val/images/"  # Path to validation images
+test: "test/test/images/"  # Path to test images
+
+# Classes
+nc: 2  # Number of classes
+names:
+  - MILCO
+  - NonMILCO
+
+# Model
+model: yolov8s.pt  # Choose a model (s, m, l, x)
+imgsz: 640  # Image size
+
+# Hyperparameters
+epochs: 30  # Number of epochs
+batch_size: 16  # Batch size
+optimizer: SGD  # Optimizer
+lr0: 0.01  # Initial learning rate
+momentum: 0.937  # Momentum
+weight_decay: 0.0005  # Weight decay
+
+# Augmentations
+augment: hflip, colorjitter
+
+# Device
+device: cuda  # Use GPU

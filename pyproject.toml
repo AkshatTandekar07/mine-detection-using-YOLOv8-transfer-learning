@@ -1,0 +1,21 @@
+[project]
+name = "mine-detection"
+version = "0.1.0"
+description = "Transfer Learning-Based Mine-Like Target Detection in Side-Scan Sonar Imagery Using YOLOv8"
+readme = "README.md"
+requires-python = "==3.12.*"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "summarytools",
+    "pillow",
+    "opencv-python",
+    "pyyaml",
+    "ultralytics",
+    "jupyter",
+    "ipykernel",
+    "ipython>=9.18.1",
+    "kaggle"
+]

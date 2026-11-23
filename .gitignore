@@ -1,0 +1,46 @@
+# Environment & Dependencies
+.venv/
+venv/
+env/
+
+# IDE & Editor Settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.ruff_cache/
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Dataset Images & Labels (213 MB) - tracked via dataset/mine.yaml
+dataset/*
+!dataset/mine.yaml
+*.cache
+
+# Model Weights & Checkpoints (To be uploaded to GitHub Releases instead)
+*.pt
+*.pth
+*.onnx
+*.engine
+*.bin
+
+# Archives & Large Compressed Files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# OS & Temporary Logs
+*.log
+.DS_Store
+Thumbs.db
+
+AGENTS.md
